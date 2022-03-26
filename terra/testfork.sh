@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i 's/krw/bkrw/g' *
+find ./ -type f -exec sed -i -e 's/krw/bkrw/g' *
